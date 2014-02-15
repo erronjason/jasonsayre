@@ -1,0 +1,78 @@
+html, html a {
+
+}
+body {
+    overflow: hidden;
+    margin: 0;
+    background: #fefefe;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: -1.5px -1.5px 1px #756964;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    color: #543f36;
+    text-decoration: none;
+}
+h1 {
+
+    font-weight: 400;
+    font-size: 3em;
+    background: #fefefe;
+}
+.orange {
+    font-size: 44px;
+    font-weight: bold;
+    color: #ae3409;
+
+    text-shadow: -1.5px -1.5px 1px #3a3a3a;
+}
+.gray {
+    font-size: 32px;
+    font-weight: bold;
+    color: #543f36;
+    text-shadow: -1.5px -1.5px 1px #756964;
+}
+.menu {
+    font-weight: 550;
+    padding-left: 40px;
+    font-size: 28px;
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+.main {
+padding-top:80px;
+}
+.main_header {
+    padding-top: 40px;
+    width: 55%;
+    float: right;
+}
+/* Social */
+.soc_main {
+    padding-top: 80px;
+    width: 60%;
+    float: right;
+}
+.soc_text {
+    padding-left: 56px;
+    font-size: 3em;
+    padding-bottom: 8px;
+}
+.soc_plus {
+    padding-left: 20px;
+}
+.soc_facebook {
+    padding: 50px;
+}
+.soc_twitter {
+}
+.soc_hr {
+    height: 1px;
+    width: 310px;
+    padding-bottom: 22px;
+}
