@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="mail.css" media="screen" />
+<link rel="stylesheet" href="css/mail.css" media="screen" />
 <?php
 
 		//If the form is submitted:

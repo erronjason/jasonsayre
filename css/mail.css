@@ -1,4 +1,4 @@
-body{
+.contact body{
 	font: 14px/1.5em sans-serif;
 	margin: 0;
 	padding: 0;
@@ -6,7 +6,7 @@ body{
 
 /* Form styling */
 
-label {
+.contact label {
     display: block;
     padding: 1px 7px 0;
     position: absolute;
@@ -14,7 +14,7 @@ label {
     z-index: 1;
 }
 
-input[type="text"], textarea {
+.contact input[type="text"], textarea {
     display: block;
     background: none;
     font: inherit;
@@ -24,39 +24,44 @@ input[type="text"], textarea {
 	overflow: auto; /* removes scrollbar from textarea in IE - trick from HTML5 boilerplate*/
 }
 
-label, input[type="text"], #singleParagraphInputs div{
+.contact label, input[type="text"], #singleParagraphInputs div{
 	/* these two values must be the same */
 	line-height: 1.5em;
 	height: 1.5em;
 }
 
-#singleParagraphInputs div, #commentTxt, #recaptcha_widget_div{
+.contact #singleParagraphInputs div, #commentTxt, #recaptcha_widget_div{
 	margin-bottom: 1.5em;
 }
 
-input, textarea, #recaptcha_table{
+.contact input, textarea, #recaptcha_table{
 	border: 1px solid #ccc;
 }
 
-.formError {
+.contact .formError {
     border: 1px solid red;
 }
 
-#contactForm, #recaptcha_table{
+.contact #contactForm, #recaptcha_table{
 	width: 600px;
 	margin: 0 auto;
 	margin-top: 50px;
+	font-weight: normal;
+	text-shadow: none;
 }
-
-#singleParagraphInputs div, #commentTxt {
+.contact p {
+	font-weight: normal;
+	text-shadow: none;
+}
+.contact #singleParagraphInputs div, #commentTxt {
     position: relative;
 }
 
-#singleParagraphInputs input {
+.contact #singleParagraphInputs input {
     width: 584px; /* 16px less than form width */
 }
 
-#commentTxt textarea {
+.contact #commentTxt textarea {
     min-height: 9em;
 	min-width: 584px; /* 16px less than form width */
 	/* if you aim ie7 users specify font to use in textarea since it won't inherit it*/
@@ -65,15 +70,15 @@ input, textarea, #recaptcha_table{
 	*/
 }
 
-#screenReader, #checking {
+.contact #screenReader, #checking {
     float: left;
 	display: none;
 }
 
-#recaptcha_response_field {
+.contact #recaptcha_response_field {
     width: 286px !important; /* just a stylistic detail to make the input field equal width as the box with words to copy */
 }
 
-input[type="submit"]{
+.contact input[type="submit"]{
 	/* some styles for the button */
 }

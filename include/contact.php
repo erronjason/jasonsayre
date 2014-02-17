@@ -1,6 +1,6 @@
 <?php
-// include 'http://jasonsayre.com/new/include/mail/index.php';
-
-echo 'Contact form';
+echo '<div class="contact">';
+    include "mail/index.php";
+echo '</div>';
 
 ?>
