@@ -13,4 +13,3 @@
     <link rel="stylesheet" type="text/css" href="<?= ASSETS_DIR ?>/css/main.css">
 </head>
 <body>
-<div id="wrapper">

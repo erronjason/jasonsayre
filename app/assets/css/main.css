@@ -1,33 +1,28 @@
-/**
- * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
- * 
- * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
- * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
- *
- * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
- */
 html,
 body {
-  margin:0;
-  padding:0;
-  height:100%;
-}
+  font: 100% Helvetica, arial, sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
 #wrapper {
-  min-height:100%;
-  position:relative;
-}
+  min-height: 100%;
+  position: relative; }
+
 #header {
-  background:#ededed;
-  padding:10px;
-}
-#main {
-  padding-bottom:100px; /* Height of the footer element */
-}
+  background: #ededed;
+  padding: 10px; }
+
+#content {
+  padding-bottom: 20px; }
+
 #footer {
-  background:#ffab62;
-  width:100%;
-  height:100px;
-  position:absolute;
-  bottom:0;
-  left:0;
-}
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+  #footer #footer-copyright {
+    font-size: .80em;
+    text-align: center; }
