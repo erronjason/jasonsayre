@@ -1,10 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
 html,
 body {
   font: 100% Helvetica, arial, sans-serif;
   color: black;
   margin: 0;
   padding: 0;
-  height: 100%; }
+  height: 100%;
+  background-color: #e5e5de; }
 
 #wrapper {
   min-height: 100%;
@@ -15,14 +17,19 @@ body {
   padding: 10px; }
 
 #content {
-  padding-bottom: 20px; }
+  padding-bottom: 35px; }
 
 #footer {
   width: 100%;
-  height: 20px;
+  height: 35px;
   position: absolute;
   bottom: 0;
-  left: 0; }
+  left: 0;
+  background-color: #4c4c4c; }
   #footer #footer-copyright {
-    font-size: .80em;
-    text-align: center; }
+    color: #8F877F;
+    font-family: "Pacifico", cursive;
+    padding-top: 4px;
+    font-size: 1em;
+    text-align: center;
+    font-size: 14px; }
